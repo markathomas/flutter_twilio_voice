@@ -85,7 +85,7 @@ public class FlutterTwilioVoicePlugin implements FlutterPlugin, MethodChannel.Me
 
         plugin.notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         plugin.voiceBroadcastReceiver = new VoiceBroadcastReceiver(plugin);
-        plugin.registerReceiver();
+        //plugin.registerReceiver();
 
         /*
          * Needed for setting/abandoning audio focus during a call
